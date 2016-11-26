@@ -33,7 +33,7 @@ const LoginForm = (props) => {
         <Field name="password" type="password" component={renderField} label="Password"/>
       </div>
 
-      // Render error if any.
+      {/* Render error if any. */}
       {error && <strong>{error}</strong>}
 
       <div>

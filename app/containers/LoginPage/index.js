@@ -7,11 +7,12 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import Helmet from 'react-helmet';
+import LoginForm from './LoginForm'
 
 export class LoginPage extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
-  // Display values
-  login = (values) => alert(values);
+  // Display values, which is a Map when using immutables
+  login = (values) => alert(`It's a map thanks to immutables with redux-form: ${values}`);
 
   render() {
     return (
@@ -25,9 +26,9 @@ export class LoginPage extends React.PureComponent { // eslint-disable-line reac
           />
           <div className="row">
             <div className="col-md-4 col-md-offset-4">
-              // From onSubmit you would be dispatching your action passing in
-              // the values of the forms. For this dummy example we just
-              // display the values.
+              {/* From onSubmit you would be dispatching your action passing in
+                  the values of the forms. For this dummy example we just
+                  display the values. */}
               <LoginForm onSubmit={this.login} locale={this.props.locale} />
             </div>
           </div>

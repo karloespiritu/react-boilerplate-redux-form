@@ -6,8 +6,16 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  header: {
-    id: 'app.containers.LoginPage.header',
-    defaultMessage: 'This is LoginPage container !',
+  email: {
+    id: 'blog.containers.FormPage.email',
+    defaultMessage: 'Email',
+  },
+  password: {
+    id: 'blog.containers.FormPage.password',
+    defaultMessage: 'Password',
+  },
+  login: {
+    id: 'blog.containers.FormPage.login',
+    defaultMessage: 'Log In',
   },
 });

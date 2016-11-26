@@ -1,8 +1,12 @@
-Dummy example of how to put together react and boilerplate and redux-form.
+## Description
+
+Dummy example of how to put together [react-boilerplate](https://github.com/mxstbr/react-boilerplate) and [redux-form](https://github.com/erikras/redux-form).
 Just go straight to the app folder.
 
-[react-boilerplate](https://github.com/mxstbr/react-boilerplate)
-[redux-form](https://github.com/erikras/redux-form)
+## Installation
+
+* npm install
+* npm start
 
 ## Thanks
 

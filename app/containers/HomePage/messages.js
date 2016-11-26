@@ -6,8 +6,8 @@
 import { defineMessages } from 'react-intl';
 
 export default defineMessages({
-  header: {
-    id: 'app.components.HomePage.header',
-    defaultMessage: 'This is HomePage components !',
+  link: {
+    id: 'app.components.HomePage.link',
+    defaultMessage: 'Go to form',
   },
 });

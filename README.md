@@ -4,7 +4,13 @@ Dummy example of how to put together [react-boilerplate](https://github.com/mxst
 
 Go straight to the app folder.
 * internals/webpack/webpack.base.babel.js has been modified to work around https://github.com/erikras/redux-form/issues/1637
-* include semantic-ui in css loader
+* include semantic-ui in css loader (`webpack.base.babel.js`):
+```
+test: /\.css$/,
+      include: [/node_modules/, /semantic/],
+      loaders: ['style-loader', 'css-loader'],
+
+```
 
 ## Installation
 
